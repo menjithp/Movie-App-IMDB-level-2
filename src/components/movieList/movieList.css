@@ -1,0 +1,22 @@
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+@media screen and (max-width:768px){
+    .movie__list{
+        padding:0 1rem 1rem 1rem;
+    }
+    .list__cards {
+        display: grid;
+       grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    }
+}
+.list__title {
+font-size: 1.75rem;
+margin:  2.5rem;
+}
+
+.list__cards {
+    display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+   gap:1rem;
+}
